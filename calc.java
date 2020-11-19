@@ -149,9 +149,9 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXX";
+					rom_r="XL";
 				}else{
-					rom_r="XXXX"+rom_r;
+					rom_r="XL"+rom_r;
 				}
 			}
 			else if(result<60){
@@ -159,9 +159,9 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXXX";
+					rom_r="L";
 				}else{
-					rom_r="XXXXX"+rom_r;
+					rom_r="L"+rom_r;
 				}
 			}
 			else if(result<70){
@@ -169,9 +169,9 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXXXX";
+					rom_r="LX";
 				}else{
-					rom_r="XXXXXX"+rom_r;
+					rom_r="LX"+rom_r;
 				}
 			}
 			else if(result<80){
@@ -179,9 +179,9 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXXXXX";
+					rom_r="LXX";
 				}else{
-					rom_r="XXXXXXX"+rom_r;
+					rom_r="LXX"+rom_r;
 				}
 			}
 			else if(result<90){
@@ -189,9 +189,9 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXXXXXX";
+					rom_r="LXXX";
 				}else{
-					rom_r="XXXXXXXX"+rom_r;
+					rom_r="LXXX"+rom_r;
 				}
 			}
 			else if(result<100){
@@ -199,13 +199,13 @@ public class calc{
 				rom_r=Integer.toString(result.intValue());
 				rom_r=arabic2roman(rom_r);
 				if(result==0){
-					rom_r="XXXXXXXXX";
+					rom_r="XC";
 				}else{
-					rom_r="XXXXXXXXX"+rom_r;
+					rom_r="XC"+rom_r;
 				}
 			}
 			else{
-				rom_r="XXXXXXXXXX";
+				rom_r="C";
 			}
 			if(rom_r.equals("0")){
 				error(2);
